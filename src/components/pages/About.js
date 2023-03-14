@@ -1,6 +1,11 @@
 import '../../dist/css/about-page.css'
+import {useEffect, useState} from "react";
 
 const About = () => {
+    useEffect(() => {
+        document.title = 'About Page';
+    },[]);
+
     return (
       <div className='about'>
           <h1>About Page</h1>
