@@ -1,0 +1,29 @@
+footer {
+  background-color: black;
+  padding: 50px 0;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+footer .container {
+  width: 100%;
+  max-width: 1420px;
+}
+footer .container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer .container ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+footer .container ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer .container ul li a:hover {
+  color: #2ab391;
+}
+
+/*# sourceMappingURL=footer.css.map */

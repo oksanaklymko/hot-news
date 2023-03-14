@@ -1,0 +1,39 @@
+header .container {
+  width: 100%;
+  max-width: 1420px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header .container h1 span {
+  color: #2ab391;
+}
+
+header nav {
+  background-color: #3f3d3d;
+  margin: 0 auto;
+}
+
+header nav ul {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  gap: 35px;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header nav ul li a:hover {
+  color: #2ab391;
+}
