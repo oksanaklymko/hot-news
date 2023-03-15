@@ -21,7 +21,7 @@ footer {
         a {
           color: white;
           text-decoration: none;
-
+          transition: all .25s ease-in-out;
           &:hover {
             color: #2ab391;
           }
@@ -29,4 +29,16 @@ footer {
       }
     }
   }
+  .copyright {
+
+    a {
+      color: white;
+      text-decoration: none;
+      transition: all .25s ease-in-out;
+      &:hover {
+        color: #2ab391;
+      }
+    }
+  }
+
 }

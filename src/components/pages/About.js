@@ -8,10 +8,12 @@ const About = () => {
 
     return (
       <div className='about'>
-          <h1>About Page</h1>
+          <h1>About Us</h1>
           <div className='content'>
-              <h3>What?</h3>
-              <p>Lorem </p>
+              <p>Your source for the lifestyle news. This demo is crafted specifically to exhibit the use of the theme as a lifestyle site. Visit our main page for more demos.</p>
+              <p>We're accepting new partnerships right now.</p>
+              <p>Email Us: info@example.com</p>
+              <p>Contact: +1-320-0123-451</p>
           </div>
       </div>
     )

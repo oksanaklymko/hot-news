@@ -1,1 +1,1 @@
-.articles{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}.articles .article{border:1px solid;border-radius:3px;padding:5px}.articles .article h2{font-size:18px}.articles .article img{width:250px;height:auto}.single-news{display:flex;flex-direction:column}.single-news img{width:500px;height:auto}
+.articles{display:grid;grid-template-columns:repeat(2,1fr);gap:5px}.articles .article{border:1px solid;border-radius:3px;padding:5px}.articles .article h2{font-size:18px}.articles .article img{width:250px;height:auto}

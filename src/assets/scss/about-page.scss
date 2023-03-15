@@ -1,12 +1,14 @@
 .about {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+
   h1 {
     font-weight: 600;
   }
-  h3 {
-    font-weight: 400;
-  }
+
   p {
     font-size: 17px;
-    text-align: justify;
   }
 }

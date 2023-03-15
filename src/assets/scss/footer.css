@@ -21,8 +21,17 @@ footer .container ul li {
 footer .container ul li a {
   color: white;
   text-decoration: none;
+  transition: all 0.25s ease-in-out;
 }
 footer .container ul li a:hover {
+  color: #2ab391;
+}
+footer .copyright a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+}
+footer .copyright a:hover {
   color: #2ab391;
 }
 
