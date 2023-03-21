@@ -1,7 +1,8 @@
+import "../../dist/css/var.css";
 
 function Main() {
     return (
-        <main>
+        <main className="container font-link">
             <div>
                 Main
             </div>

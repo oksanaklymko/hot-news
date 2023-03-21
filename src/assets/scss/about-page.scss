@@ -1,14 +1,15 @@
 .about {
-  background-color: black;
-  color: white;
+  color: black;
   padding: 5px;
   text-align: center;
 
-  h1 {
-    font-weight: 600;
+  p {
+    padding: 5px 0;
   }
 
-  p {
-    font-size: 17px;
+  a {
+    color: black;
+    display: block;
+    padding: 5px 0;
   }
 }

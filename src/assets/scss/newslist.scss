@@ -1,0 +1,65 @@
+.article {
+   .article-text {
+    position: static;
+    bottom: 15px;
+
+    left: 10px;
+    color: white;
+    margin-top: 150px;
+
+
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 0 5px;
+
+      @media only screen and (min-width: 767px) {
+        font-size: 20px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #2ab391;
+    }
+    .author {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 10px;
+      font-size: 10px;
+    }
+  }
+}
+
+form {
+  text-align: center;
+  padding: 10px 0;
+  max-width: 300px;
+  margin: 0 auto;
+
+  label {
+    background-color: white;
+    color: #2ab391;
+    transition: all ease-in-out 0.3s;
+
+  }
+
+  input {
+    padding: 5px 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    transition: all ease-in-out 0.3s;
+    background-color: white;
+    color: #2ab391;
+    &:hover, {
+      background-color: #2ab391;
+      color: white;
+    }
+  }
+}
+
+.pag {
+  align-items: center;
+  padding: 10px;
+}

@@ -1,5 +1,6 @@
 import NewsList from "../layout/NewsList";
 import {useEffect, useState} from "react";
+import "../../dist/css/var.css";
 
 const News = () => {
     useEffect(() => {
@@ -7,9 +8,10 @@ const News = () => {
     },[]);
 
     return (
-        <div>
-            <h1>News Page</h1>
+        <div className="font-link">
+            <h2>Search News</h2>
             <NewsList />
+
         </div>
     )
 };

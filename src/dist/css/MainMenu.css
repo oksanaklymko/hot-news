@@ -2,6 +2,7 @@ header .container {
   background-color: black;
   color: white;
   text-align: center;
+  padding: 10px;
 }
 
 header .container h1 span {
@@ -14,24 +15,47 @@ header nav {
 }
 
 header nav ul {
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  gap: 35px;
+  display: block;
 }
 
 header nav ul li {
   list-style: none;
+  padding: 10px 0;
 }
 
 header nav ul li a {
   color: white;
   text-decoration: none;
   transition: all 0.3s;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 header nav ul li a:hover {
   color: #2ab391;
+}
+
+@media only screen and (min-width: 767px) {
+  header nav ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  header nav ul li a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  header nav ul {
+    gap: 35px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+    font-weight: 500;
+  }
 }

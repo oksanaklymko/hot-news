@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import "../../dist/css/footer.css";
 import NavWithTitle from "../navigation/NavWithTitle";
+import "../../dist/css/var.css";
 //import Facebook from "@mui/icons-material";
 
 const currentYear = new Date().getFullYear();
@@ -27,7 +28,7 @@ let socialNav = {
 function Footer() {
     return (
         <footer>
-            <div className='container'>
+            <div className='container font-link'>
                 <NavWithTitle { ...socialNav } />
             </div>
             <div className="copyright">

@@ -1,5 +1,6 @@
 import MainMenu from '../navigation/MainMenu';
-import '../../assets/scss/header.css';
+import '../../dist/css/header.css';
+import "../../dist/css/var.css";
 
 let primaryMenu = {
     links: [
@@ -25,25 +26,9 @@ let primaryMenu = {
 const Header = () => {
     return (
         <header>
-            <div className='header-wrapper container'>
+            <div className='container font-link'>
                 <h1>HO<span>TN</span>EWS</h1>
                 < MainMenu  { ...primaryMenu }/>
-            {/*<nav>*/}
-            {/*    <ul>*/}
-            {/*        <li>*/}
-            {/*            <NavLink to="/">Home</NavLink>*/}
-            {/*        </li>*/}
-            {/*        <li>*/}
-            {/*            <NavLink to="/news">News</NavLink>*/}
-            {/*        </li>*/}
-            {/*        <li>*/}
-            {/*            <NavLink to="/contacts">Contacts</NavLink>*/}
-            {/*        </li>*/}
-            {/*        <li>*/}
-            {/*            <NavLink to="/about">About</NavLink>*/}
-            {/*        </li>*/}
-            {/*    </ul>*/}
-            {/*</nav>*/}
             </div>
         </header>
     )

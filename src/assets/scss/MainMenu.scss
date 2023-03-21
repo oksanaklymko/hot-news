@@ -3,6 +3,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
     h1 {
       span {
         color: #2ab391;
@@ -13,23 +14,43 @@ header {
   nav {
     background-color: #3f3d3d;
     margin: 0 auto;
+
     ul {
-      display: flex;
-      margin: 0 auto;
-      justify-content: center;
-      gap: 35px;
+      display: block;
+
+      @media only screen and (min-width: 767px) {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px;
+      }
+      @media only screen and (min-width: 1023px) {
+        gap: 35px;
+      }
 
       li {
         list-style: none;
+        padding: 10px 0;
         a {
           color: white;
           text-decoration: none;
           transition: all .3s;
-          font-size: 20px;
-          font-weight: 500;
+          font-size: 16px;
+          font-weight: 400;
           &:hover {
             color: #2ab391;
           }
+
+          @media only screen and (min-width: 767px) {
+            font-size: 18px;
+          }
+          @media only screen and (min-width: 1023px) {
+            font-size: 20px;
+            font-weight: 500;
+          }
+
+
         }
       }
     }

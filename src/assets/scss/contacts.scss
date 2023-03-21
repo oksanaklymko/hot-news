@@ -1,0 +1,42 @@
+.contacts {
+    color: black;
+    padding: 5px;
+    text-align: center;
+
+    .container {
+        padding: 0;
+    }
+
+    form {
+        .wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        label {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        input {
+            margin-left: 10px;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 5px 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+            transition: all ease-in-out 0.3s;
+            background-color: white;
+            color: #2ab391;
+            &:hover, {
+                background-color: #2ab391;
+                color: white;
+            }
+        }
+    }
+}
+
+

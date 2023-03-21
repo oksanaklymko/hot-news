@@ -1,0 +1,40 @@
+.contacts {
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+
+.contacts .container {
+  padding: 0;
+}
+
+.contacts form .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts form label {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.contacts form input {
+  margin-left: 10px;
+}
+
+.contacts form button {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  transition: all ease-in-out 0.3s;
+  background-color: white;
+  color: #2ab391;
+}
+
+.contacts form button:hover {
+  background-color: #2ab391;
+  color: white;
+}
